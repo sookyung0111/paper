@@ -52,7 +52,7 @@ def main():
             if user_question:
                 try:
                     # Gemini 모델 설정
-                    model = genai.GenerativeModel('gemini-pro')
+                    model = genai.GenerativeModel('gemini-1.5-pro')
                     
                     # 프롬프트 작성
                     prompt = f"""
